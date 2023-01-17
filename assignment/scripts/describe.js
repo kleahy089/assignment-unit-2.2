@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We define variable name as Dane
+// We check if name is equal to Mary
+// since name is not Mary, we go to else console logs 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Secret is created as a variable with no definition yet. Code is set as a number (123)
+// We check if code is 123, which it is, so we set the variable secret to be 'super'.
+// After defining secret, we change code to be twice as much as before, now 246.
+// We then check if code is greater than 250, which it isn't. So we skip to the end.
+// We print out the variable secret in console, which should be 'super'.
 
 //CODE
 /*
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First it defines 3 variables: isStudent, age, and zip
+// Next it checks two different things in an if statement, if isStudent is true (which it is) and if zip is greater than 80000 (which it isn't)
+// We next check whether isStudent is false (which it isn't) and if age is under 30 (which it also isn't). So we move on. 
+// We next check whether isStudent is true (which it is), so we output to console: 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,12 +131,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'purple';
 }
 */
 
@@ -145,9 +147,9 @@ if (mix === true) {
 
 /*
 let temp = 40;
-const time = 4;
+let time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -160,10 +162,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+if(age >= minAge) {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
 
